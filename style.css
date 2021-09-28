@@ -83,3 +83,25 @@ body {
 .container_bottom{
     padding: 20px
 }
+
+.container_callAction {
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container_callAction .action_text {
+    margin: 6px;
+    margin-left: 70px;
+    padding: 0px;
+    flex: 20%;
+}
+
+.container_callAction div button {
+    margin-right: 70px;
+    background-color: #3882f6;
+}
